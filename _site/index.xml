@@ -7,7 +7,7 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
     <item>
       <title>White Water Award training</title>
       <link>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training</link>
@@ -15,8 +15,18 @@
       <category>LDCC</category>
       <category>whitewater</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training</guid>
-      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training/2021-04-18-paul.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Morecambe Bay on a sunny day</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day</link>
+      <description>paddle on the beautiful Morecambe Bay from the Town Hall slipway.</description>
+      <category>LDCC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day</guid>
+      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day/2021-04-10-morecambe.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
