@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Rhi on the Sea</title>
+    <link>https://rhionthesea.netlify.app/</link>
+    <atom:link href="https://rhionthesea.netlify.app/index.xml" rel="self" type="application/rss+xml"/>
+    <description>A paddling log book
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>White Water Award training</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training</link>
+      <description>Learning at Halton Rapids</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training</guid>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training/2021-04-18-paul.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>

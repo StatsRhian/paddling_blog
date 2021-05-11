@@ -7,9 +7,10 @@ base_url: https://rhionthesea.netlify.app/
 collections:
   posts:
     disqus: rhionthesea
+    authors_metadata: false
 output_dir: "_site"
 navbar:
-  left:
+  right:
     - text: "Home"
       href: index.html
     - text: "About"

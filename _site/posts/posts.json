@@ -1,19 +1,17 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to Rhi on the Sea",
-    "description": "Welcome to our new blog, Rhi on the Sea. We hope you enjoy \nreading what we have to say!",
-    "author": [
-      {
-        "name": "Nora Jones",
-        "url": "https://example.com/norajones"
-      }
+    "path": "posts/2021-04-18-white-water-award-training/",
+    "title": "White Water Award training",
+    "description": "Learning at Halton Rapids",
+    "author": [],
+    "date": "2021-04-18",
+    "categories": [
+      "LDCC",
+      "whitewater"
     ],
-    "date": "2021-05-11",
-    "categories": [],
-    "contents": "\n\n\n\n",
-    "preview": {},
-    "last_modified": "2021-05-11T18:37:21+01:00",
-    "input_file": {}
+    "contents": "\nLDCC WW Lune Halton Warm, no wind 1 0.4m (Empty)\nWW Award training led by Paul Simpson. We discussed water features (at a mini level), leadership, decision making and equipment. We ran the river twice, once re-grouping at each eddy, and once in one run. I enjoyed picking the route down and the reccee before we ran features made the run much more pleasant. I was more confident having seen the upcoming features in advance and from above. It always amazes me how different features look on the river level!\n\n\n\n\n\n\n",
+    "preview": "posts/2021-04-18-white-water-award-training/2021-04-18-paul.jpg",
+    "last_modified": "2021-05-11T19:15:21+01:00",
+    "input_file": "white-water-award-training.knit.md"
   }
 ]
