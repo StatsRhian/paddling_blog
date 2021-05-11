@@ -1,0 +1,21 @@
+---
+title: "White Water Award training"
+description: |
+  A short description of the post.
+author:
+  - name: Nora Jones
+    url: https://example.com/norajones
+date: 04-18-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+LDCC	WW	Lune	Halton	Warm, no wind	1	0.4m (Empty)
+
+
+WW Award training led by Paul Simpson. We discussed water features (at a mini level), leadership, decision making and equipment. We ran the river twice, once re-grouping at each eddy, and once in one run. I enjoyed picking the route down and the recee before we ran features made the run much more pleasant. I was more confident having seen the upcoming features in advance and from above. It always amazes me how different features look on the river level!
