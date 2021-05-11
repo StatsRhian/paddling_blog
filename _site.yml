@@ -1,10 +1,15 @@
 name: "paddling_blog"
 title: "Rhi on the Sea"
 description: |
-  Rhi on the Sea
+  A paddling log book
+theme: theme.css
+base_url: https://rhionthesea.netlify.app/
+collections:
+  posts:
+    disqus: rhi-on-the-sea
 output_dir: "_site"
 navbar:
-  right:
+  left:
     - text: "Home"
       href: index.html
     - text: "About"
