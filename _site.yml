@@ -6,7 +6,7 @@ theme: theme.css
 base_url: https://rhionthesea.netlify.app/
 collections:
   posts:
-    disqus: rhi-on-the-sea
+    disqus: rhionthesea
 output_dir: "_site"
 navbar:
   left:
