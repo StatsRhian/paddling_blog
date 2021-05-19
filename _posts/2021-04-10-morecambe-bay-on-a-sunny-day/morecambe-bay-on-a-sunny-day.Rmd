@@ -1,7 +1,7 @@
 ---
 title: "Morecambe Bay on a sunny day"
 description: |
-  paddle on the beautiful Morecambe Bay from the Town Hall slipway. 
+  A sunny paddle on Morecambe Bay
 categories:
   - LDCC
   - sea
@@ -11,7 +11,8 @@ output:
     self_contained: false
 ---
 
-LDCC	Sea	Morecambe Bay	at Mallows Bay and the Stone jetty	Warm, sunny and low on-shore winds		HT 11:27 8.89m
+* Morecambe Bay	at Mallows Bay
+* Warm, sunny and low on-shore winds		* * HT 11:27 8.89m
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

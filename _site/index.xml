@@ -7,7 +7,17 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>White Water Award Practice at Halton</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</link>
+      <description>Another chance to work towards the White Water Award</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</guid>
+      <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton/2021-05-15-white-water-award-pracrtice-at-halton.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>White Water Award training</title>
       <link>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training</link>
@@ -21,12 +31,32 @@
     <item>
       <title>Morecambe Bay on a sunny day</title>
       <link>https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day</link>
-      <description>paddle on the beautiful Morecambe Bay from the Town Hall slipway.</description>
+      <description>A sunny paddle on Morecambe Bay</description>
       <category>LDCC</category>
       <category>sea</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day</guid>
-      <pubDate>Fri, 09 Apr 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 10 Apr 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day/2021-04-10-morecambe.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Lancaster Round</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round</link>
+      <description>An early start doing the Lancaster round from Glasson</description>
+      <category>UCC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round</guid>
+      <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round/2021-04-07-lancaster-round.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Night paddle</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle</link>
+      <description>A night paddle on Halton rapids</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle</guid>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/night-paddle.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
