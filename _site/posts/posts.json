@@ -1,5 +1,65 @@
 [
   {
+    "path": "posts/2021-07-03-farne-isles/",
+    "title": "Farne Isles",
+    "description": "A short description of the post.",
+    "author": [],
+    "date": "2021-07-03",
+    "categories": [
+      "CC",
+      "sea"
+    ],
+    "contents": "\nStrava Day 1\nStrava Day 2\n\n\n\n\n\n\n",
+    "preview": "posts/2021-07-03-farne-isles/FB_IMG_1625436168372.jpg",
+    "last_modified": "2021-07-18T19:57:03+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-06-26-morecambe-bay/",
+    "title": "Morecambe Bay",
+    "description": "A short description of the post.",
+    "author": [],
+    "date": "2021-06-26",
+    "categories": [
+      "ldcc",
+      "sea"
+    ],
+    "contents": "\nBare Bay, Morecambe\nWarm, gentle winds\nStrava\nToday, Saturday 26/06 on Morecambe Bay. 14 of us with a mix of sea kayaks and river running kayaks. Various splits to accommodate for all paddling on general direction towards Happy Mount Park against the chop and wind. Snacks in Bare paddling pool then out into the very fast outgoing tide allows us to quickly get to the lifeboat station bay then back to start point at the Town Hall side slip. Nice waves, some surfing and heavy going to finish. Sunny throughout. Certainly a tougher proposition than planned but all were up to the exciting conditions.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-07-18T19:56:05+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-06-12-brighouse-bay/",
+    "title": "Brighouse Bay",
+    "description": "A short description of the post.",
+    "author": [],
+    "date": "2021-06-12",
+    "categories": [
+      "UCC",
+      "sea"
+    ],
+    "contents": "\nStrava Day 1\nStrava Day 2\n\n\n\n\n\n\n",
+    "preview": "posts/2021-06-12-brighouse-bay/201795368_4264253233596313_7996771256474821403_n.jpg",
+    "last_modified": "2021-07-18T19:56:07+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-06-05-yorkshire-coast/",
+    "title": "Yorkshire Coast",
+    "description": "A short description of the post.",
+    "author": [],
+    "date": "2021-06-05",
+    "categories": [
+      "CC",
+      "sea"
+    ],
+    "contents": "\nStrava Day 1\nStrava Day 2\n\n\n\n\n\n\n",
+    "preview": "posts/2021-06-05-yorkshire-coast/vlcsnap-2021-06-07-16h58m13s395.jpg",
+    "last_modified": "2021-07-18T19:56:12+01:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-05-15-white-water-award-practice-at-halton/",
     "title": "White Water Award Practice at Halton",
     "description": "Another chance to work towards the White Water Award",
@@ -11,7 +71,21 @@
     ],
     "contents": "\nHalton on 0.55m (low/scrape)\nNo wind, light rain\nThe fishermen opened up Halton Rapids to kayakers today and we made good use of it. We were on the water for around 4 hours, working toward the white water award. The group doing the WWA were myself, Arne, Paul Jackson, Simon Murby and Adam, led by Paul Simpson & Dave Horn. This time we focused less on group skills and features and more on skills. We spent lots of time ferry gliding (forwards and backwards) and practising braces.\nI had one swim coming past the final baffle, I tried to high brace on a wave, missed and capsized. Not the best swim as I hit myself in the face with the paddle giving my self a nose bleed and got jammed on the shallow slabs by my boat and had to let it go down river. In hindsight I could have probably pushed myself back upright off the bottom and saved myself a swim. Aside from that it was a great day, with 2 other LDCC groups out.\nA good reminder that I definitely need more low and high brace practice - something for Thursday nights on the flat water.\n\n\n\n\n\n\n",
     "preview": "posts/2021-05-15-white-water-award-practice-at-halton/2021-05-15-white-water-award-pracrtice-at-halton.jpg",
-    "last_modified": "2021-05-19T21:06:54+01:00",
+    "last_modified": "2021-05-21T17:48:23+01:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2021-05-08-paddlesport-instructor/",
+    "title": "Paddlesport Instructor",
+    "description": "Doing my BC Paddlesport Instructor Course",
+    "author": [],
+    "date": "2021-05-08",
+    "categories": [
+      "awards"
+    ],
+    "contents": "\nFill this in.\n\n\n\n\n\n\n",
+    "preview": "posts/2021-05-08-paddlesport-instructor/2021-05-08-paddlesport-instructor.jpg",
+    "last_modified": "2021-07-18T19:24:45+01:00",
     "input_file": {}
   },
   {

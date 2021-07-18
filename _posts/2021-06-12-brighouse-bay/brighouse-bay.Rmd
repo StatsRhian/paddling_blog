@@ -1,0 +1,22 @@
+---
+title: "Brighouse Bay"
+description: |
+  A short description of the post.
+categories:
+  - UCC
+  - sea
+date: 06-12-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+- [Strava Day 1](https://www.strava.com/activities/5465185503)
+- [Strava Day 2](https://www.strava.com/activities/5465185947)
+
+
+```{r, echo = FALSE}
+knitr::include_graphics("201795368_4264253233596313_7996771256474821403_n.jpg")
+```
+
+

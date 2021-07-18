@@ -7,7 +7,46 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 15 May 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Farne Isles</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles</link>
+      <description>A short description of the post.</description>
+      <category>CC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles</guid>
+      <pubDate>Sat, 03 Jul 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles/FB_IMG_1625436168372.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Morecambe Bay</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay</link>
+      <description>A short description of the post.</description>
+      <category>ldcc</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay</guid>
+      <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Brighouse Bay</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay</link>
+      <description>A short description of the post.</description>
+      <category>UCC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay</guid>
+      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay/201795368_4264253233596313_7996771256474821403_n.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Yorkshire Coast</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast</link>
+      <description>A short description of the post.</description>
+      <category>CC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast</guid>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast/vlcsnap-2021-06-07-16h58m13s395.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>White Water Award Practice at Halton</title>
       <link>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</link>
@@ -17,6 +56,15 @@
       <guid>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</guid>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton/2021-05-15-white-water-award-pracrtice-at-halton.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Paddlesport Instructor</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor</link>
+      <description>Doing my BC Paddlesport Instructor Course</description>
+      <category>awards</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor</guid>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor/2021-05-08-paddlesport-instructor.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>White Water Award training</title>
