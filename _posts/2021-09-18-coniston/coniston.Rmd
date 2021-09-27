@@ -1,0 +1,19 @@
+---
+title: "Coniston with LDCC"
+description: |
+  A short description of the post.
+categories:
+  - LDCC
+  - lake
+date: 18-09-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+- [Strava](https://www.strava.com/activities/5979803946)
+
+```{r, echo = FALSE}
+knitr::include_graphics("20210918_143801.jpg")
+```
+

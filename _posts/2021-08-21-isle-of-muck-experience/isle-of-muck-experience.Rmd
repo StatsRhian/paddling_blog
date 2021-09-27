@@ -1,0 +1,27 @@
+---
+title: "Isle of Muck Experience"
+description: |
+  A short description of the post.
+categories:
+  - CC
+  - sea
+  - expedition
+date: 08-21-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+- [Strava Day 1](https://www.strava.com/activities/5799469718)
+- [Strava Day 2](https://www.strava.com/activities/5803304005)
+- [Strava Day 3](https://www.strava.com/activities/5808920797) and [evening](https://www.strava.com/activities/5808921438)
+- [Strava Day 4](https://www.strava.com/activities/5823749295)
+- [Strava Day 5](https://www.strava.com/activities/5823751063)
+- [Strava Day 6](https://www.strava.com/activities/5823752497)
+
+```{r, echo = FALSE}
+knitr::include_graphics("549bc413-a594-4231-9194-a13a22648fc0.jpeg")
+```
+
+
+

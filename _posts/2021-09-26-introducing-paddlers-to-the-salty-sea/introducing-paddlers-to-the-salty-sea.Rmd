@@ -1,0 +1,22 @@
+---
+title: "Isle of Muck Experience"
+description: |
+  A short description of the post.
+categories:
+  - CC
+  - sea
+  - leadership
+date: 26-09-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+- [Strava Day 1](https://www.strava.com/activities/6024380742)
+- [Strava Day 2](https://www.strava.com/activities/6024348869)
+
+```{r, echo = FALSE}
+knitr::include_graphics("20210925_154329(0).jpg")
+```
+
+
