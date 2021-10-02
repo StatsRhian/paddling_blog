@@ -1,9 +1,16 @@
 ---
-title: "About this blog"
+title: "About"
 description: |
-  Some additional details about the blog
+  A paddle log
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+This blog tracks my paddling reports.
+
+```{r, echo = FALSE}
+knitr::include_graphics("images/local-map.png")
+```
+

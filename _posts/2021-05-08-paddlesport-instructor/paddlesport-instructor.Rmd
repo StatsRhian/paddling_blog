@@ -3,6 +3,7 @@ title: "Paddlesport Instructor"
 description: |
   Doing my BC Paddlesport Instructor Course
 date: 05-08-2021
+preview: 2021-05-08-paddlesport-instructor.jpg
 categories:
   - awards
 output:
@@ -10,11 +11,10 @@ output:
     self_contained: false
 ---
 
-Fill this in.
 
 ```{r, echo = FALSE}
 knitr::include_graphics("2021-05-08-paddlesport-instructor.jpg")
 ```
 
 
-
+TODO

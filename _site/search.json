@@ -2,18 +2,18 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this blog",
-      "description": "Some additional details about the blog",
+      "title": "About",
+      "description": "A paddle log",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-09-27T21:55:21+01:00"
+      "contents": "\nThis blog tracks my paddling reports.\n\n\n\n\n\n\n",
+      "last_modified": "2021-10-02T18:44:06+01:00"
     },
     {
       "path": "index.html",
       "title": "Paddle Reports",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-09-27T21:55:21+01:00"
+      "last_modified": "2021-10-02T18:44:06+01:00"
     }
   ],
   "collections": ["posts/posts.json"]

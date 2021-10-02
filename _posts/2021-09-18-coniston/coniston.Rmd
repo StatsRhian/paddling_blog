@@ -1,11 +1,12 @@
 ---
 title: "Coniston with LDCC"
 description: |
-  A short description of the post.
+  A club paddle in the lakes
 categories:
-  - LDCC
   - lake
-date: 18-09-2021
+  - LDCC
+preview: 20210918_143801.jpg
+date: 09-18-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -16,4 +17,9 @@ output:
 ```{r, echo = FALSE}
 knitr::include_graphics("20210918_143801.jpg")
 ```
+
+An LDCC club trip on Coniston Water was attended by 17 paddlers. We eventually ended up parking on the east side on a LDNP field car park with the world's worst smelling toilets of all time!
+Rain to start giving way to sunny, warm and calm conditions. Our paddle took us down the River Crake until blocked almost by trees, to a lunch stop on a beach west side and then finally to Peel Island before arriving back at the field.
+
+Alec cycled to Coniston with his pack-raft
 

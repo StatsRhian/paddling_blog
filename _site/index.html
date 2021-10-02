@@ -24,6 +24,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -56,7 +57,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -77,13 +78,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
   <title>Rhi on the Sea: Paddle Reports</title>
@@ -1859,7 +1861,10 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
       // hoverable references
       $('span.citation[data-cites]').each(function() {
-        var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          return "<p>" + $('#ref-' + ref).html() + "</p>";
+        }).join("\n");
         window.tippy(this, {
           allowHTML: true,
           content: refHtml,
@@ -2371,7 +2376,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.11.2/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2423,7 +2428,7 @@ function init_posts_list() {
     var src = $(img).attr('data-src');
     if (src) {
       $(img).attr('src', src);
-      $(img).load(function() {
+      $(img).on("load", function() {
         img.removeAttribute('data-src');
       });
     }
@@ -2469,6 +2474,7 @@ function init_posts_list() {
 
       // mark posts that match the category visible
       var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
       var posts = $('.post-metadata').map(function(idx, script) {
         var metadata = $.parseJSON($(script).html());
         var post = null;
@@ -2484,7 +2490,7 @@ function init_posts_list() {
       set_posts_visible(posts, true);
 
       // mark the hash active
-      $('.categories li>a[href="' + window.location.hash + '"]').addClass('active');
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
 
       // update the list_caption
       var list_caption = $('.posts-list-caption');
@@ -2547,6 +2553,59 @@ function init_posts_list() {
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Paddle Reports">Paddle Reports</h1>
+<a href="posts/2021-09-26-introducing-paddlers-to-the-salty-sea/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["CC","leadership","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 26, 2021</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-09-26-introducing-paddlers-to-the-salty-sea/20210925_154329(0).jpg"/>
+</div>
+<div class="description">
+<h2>Introducing Paddlers to the Salty Sea</h2>
+<div class="dt-tags">
+<div class="dt-tag">CC</div>
+<div class="dt-tag">leadership</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>Helping out on Roa Island</p>
+</div>
+</a>
+<a href="posts/2021-09-18-coniston/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["lake","LDCC"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 18, 2021</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-09-18-coniston/20210918_143801.jpg"/>
+</div>
+<div class="description">
+<h2>Coniston with LDCC</h2>
+<div class="dt-tags">
+<div class="dt-tag">lake</div>
+<div class="dt-tag">LDCC</div>
+</div>
+<p>A club paddle in the lakes</p>
+</div>
+</a>
+<a href="posts/2021-08-21-isle-of-muck-experience/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["CC","expedition","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 21, 2021</div>
+</div>
+<div class="thumbnail">
+<img src="posts/2021-08-21-isle-of-muck-experience/muck.jpeg"/>
+</div>
+<div class="description">
+<h2>Isle of Muck Experience</h2>
+<div class="dt-tags">
+<div class="dt-tag">CC</div>
+<div class="dt-tag">expedition</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>A week of paddling on the Small Isles</p>
+</div>
+</a>
 <a href="posts/2021-07-03-farne-isles/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["CC","sea"]}</script>
 <div class="metadata">
@@ -2561,41 +2620,42 @@ function init_posts_list() {
 <div class="dt-tag">CC</div>
 <div class="dt-tag">sea</div>
 </div>
-<p>A short description of the post.</p>
+<p>A weekend of paddling from Seahouses</p>
 </div>
 </a>
 <a href="posts/2021-06-26-morecambe-bay/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["ldcc","sea"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["LDCC","sea"]}</script>
 <div class="metadata">
 <div class="publishedDate">June 26, 2021</div>
 </div>
 <div class="thumbnail">
-<img/>
+<img src="posts/2021-06-26-morecambe-bay/morecambe.jpg"/>
 </div>
 <div class="description">
 <h2>Morecambe Bay</h2>
 <div class="dt-tags">
-<div class="dt-tag">ldcc</div>
+<div class="dt-tag">LDCC</div>
 <div class="dt-tag">sea</div>
 </div>
-<p>A short description of the post.</p>
+<p>Club with with LDCC</p>
 </div>
 </a>
 <a href="posts/2021-06-12-brighouse-bay/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["UCC","sea"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["leadership","sea","UCC"]}</script>
 <div class="metadata">
-<div class="publishedDate">June 12, 2021</div>
+<div class="publishedDate">June 11, 2021</div>
 </div>
 <div class="thumbnail">
-<img src="posts/2021-06-12-brighouse-bay/201795368_4264253233596313_7996771256474821403_n.jpg"/>
+<img data-src="posts/2021-06-12-brighouse-bay/brighouse.jpg"/>
 </div>
 <div class="description">
 <h2>Brighouse Bay</h2>
 <div class="dt-tags">
-<div class="dt-tag">UCC</div>
+<div class="dt-tag">leadership</div>
 <div class="dt-tag">sea</div>
+<div class="dt-tag">UCC</div>
 </div>
-<p>A short description of the post.</p>
+<p>A weekend of paddling from Kirkcudbright</p>
 </div>
 </a>
 <a href="posts/2021-06-05-yorkshire-coast/" class="post-preview">
@@ -2604,7 +2664,7 @@ function init_posts_list() {
 <div class="publishedDate">June 5, 2021</div>
 </div>
 <div class="thumbnail">
-<img src="posts/2021-06-05-yorkshire-coast/vlcsnap-2021-06-07-16h58m13s395.jpg"/>
+<img data-src="posts/2021-06-05-yorkshire-coast/yorkshire.jpg"/>
 </div>
 <div class="description">
 <h2>Yorkshire Coast</h2>
@@ -2612,7 +2672,7 @@ function init_posts_list() {
 <div class="dt-tag">CC</div>
 <div class="dt-tag">sea</div>
 </div>
-<p>A short description of the post.</p>
+<p>A weekend paddling with Cumbria Canoeists</p>
 </div>
 </a>
 <a href="posts/2021-05-15-white-water-award-practice-at-halton/" class="post-preview">
@@ -2621,7 +2681,7 @@ function init_posts_list() {
 <div class="publishedDate">May 15, 2021</div>
 </div>
 <div class="thumbnail">
-<img src="posts/2021-05-15-white-water-award-practice-at-halton/2021-05-15-white-water-award-pracrtice-at-halton.jpg"/>
+<img data-src="posts/2021-05-15-white-water-award-practice-at-halton/halton-ww.jpg"/>
 </div>
 <div class="description">
 <h2>White Water Award Practice at Halton</h2>
@@ -2629,7 +2689,7 @@ function init_posts_list() {
 <div class="dt-tag">LDCC</div>
 <div class="dt-tag">whitewater</div>
 </div>
-<p>Another chance to work towards the White Water Award</p>
+<p>Working towards the White Water Award</p>
 </div>
 </a>
 <a href="posts/2021-05-08-paddlesport-instructor/" class="post-preview">
@@ -2646,6 +2706,22 @@ function init_posts_list() {
 <div class="dt-tag">awards</div>
 </div>
 <p>Doing my BC Paddlesport Instructor Course</p>
+</div>
+</a>
+<a href="posts/2021-05-01-fsrt/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["awards"]}</script>
+<div class="metadata">
+<div class="publishedDate">May 1, 2021</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2021-05-01-fsrt/fsrt.jpg"/>
+</div>
+<div class="description">
+<h2>FSRT</h2>
+<div class="dt-tags">
+<div class="dt-tag">awards</div>
+</div>
+<p>Foundation Safety and Rescue Training Course</p>
 </div>
 </a>
 <a href="posts/2021-04-18-white-water-award-training/" class="post-preview">
@@ -2683,7 +2759,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="posts/2021-04-07-the-lancaster-round/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["UCC","sea"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["sea","UCC"]}</script>
 <div class="metadata">
 <div class="publishedDate">April 7, 2021</div>
 </div>
@@ -2693,8 +2769,8 @@ function init_posts_list() {
 <div class="description">
 <h2>The Lancaster Round</h2>
 <div class="dt-tags">
-<div class="dt-tag">UCC</div>
 <div class="dt-tag">sea</div>
+<div class="dt-tag">UCC</div>
 </div>
 <p>An early start doing the Lancaster round from Glasson</p>
 </div>
@@ -2716,6 +2792,279 @@ function init_posts_list() {
 <p>A night paddle on Halton rapids</p>
 </div>
 </a>
+<a href="posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["CC","expedition","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 10, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast/isles-of-fleet.JPG"/>
+</div>
+<div class="description">
+<h2>The Solway Coast</h2>
+<div class="dt-tags">
+<div class="dt-tag">CC</div>
+<div class="dt-tag">expedition</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>Sea Kayak Forage &amp; Wild Camp</p>
+</div>
+</a>
+<a href="posts/2020-09-26-st-bees/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["CC","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 26, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-09-26-st-bees/stbees.jpg"/>
+</div>
+<div class="description">
+<h2>St Bees</h2>
+<div class="dt-tags">
+<div class="dt-tag">CC</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>A weekend of paddling from St. Bees</p>
+</div>
+</a>
+<a href="posts/2020-09-21-ullswater/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["lake","solo"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 21, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-09-21-ullswater/ullswater.jpg"/>
+</div>
+<div class="description">
+<h2>Ullswater</h2>
+<div class="dt-tags">
+<div class="dt-tag">lake</div>
+<div class="dt-tag">solo</div>
+</div>
+<p>First solo paddle, Glenridding to Howtown</p>
+</div>
+</a>
+<a href="posts/2020-08-15-saturday-night-out-in-barrow/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["sea","UCC"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 15, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-08-15-saturday-night-out-in-barrow/barrow.jpg"/>
+</div>
+<div class="description">
+<h2>Saturday night out in Barrow</h2>
+<div class="dt-tags">
+<div class="dt-tag">sea</div>
+<div class="dt-tag">UCC</div>
+</div>
+<p>An evening paddle around Piel island</p>
+</div>
+</a>
+<a href="posts/2020-08-09-st-bees-head/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["CC","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 9, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-08-09-st-bees-head/stbees.jpg"/>
+</div>
+<div class="description">
+<h2>St Bees Head</h2>
+<div class="dt-tags">
+<div class="dt-tag">CC</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>Rescues and towing session</p>
+</div>
+</a>
+<a href="posts/2020-02-29-the-wenning/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 29, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-02-29-the-wenning/wenning.png"/>
+</div>
+<div class="description">
+<h2>The Wenning</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>LDCC river trip</p>
+</div>
+</a>
+<a href="posts/2020-02-15-kirby-lonsdale/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Feb. 15, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-02-15-kirby-lonsdale/kirkby-lonsdale.png"/>
+</div>
+<div class="description">
+<h2>Kirby Lonsdale</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>Playing under the bridge</p>
+</div>
+</a>
+<a href="posts/2020-01-18-upper-upper-lune/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Jan. 18, 2020</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2020-01-18-upper-upper-lune/tebay.jpg"/>
+</div>
+<div class="description">
+<h2>Upper Upper Lune</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>Club trip from Tebay</p>
+</div>
+</a>
+<a href="posts/2019-12-21-wintery-rothay/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 21, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-12-21-wintery-rothay/rothay.jpg"/>
+</div>
+<div class="description">
+<h2>Wintery Rothay</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>Final club trip before Christmas</p>
+</div>
+</a>
+<a href="posts/2019-12-14-the-kent/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Dec. 14, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-12-14-the-kent/kent.png"/>
+</div>
+<div class="description">
+<h2>The Middle Kent</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>River trip with LDCC</p>
+</div>
+</a>
+<a href="posts/2019-10-19-little-bit-of-the-leven/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 19, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-10-19-little-bit-of-the-leven/leven.png"/>
+</div>
+<div class="description">
+<h2>Little bit of the Leven</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>LDCC club trip</p>
+</div>
+</a>
+<a href="posts/2019-10-13-bron-y-gader-trip/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Oct. 13, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-10-13-bron-y-gader-trip/bron-y-gader.jpg"/>
+</div>
+<div class="description">
+<h2>Bron y Gader trip</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>LDCC club trip to North Wales</p>
+</div>
+</a>
+<a href="posts/2019-09-28-the-upper-upper-lune/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 28, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-09-28-the-upper-upper-lune/tebay.jpg"/>
+</div>
+<div class="description">
+<h2>The Upper Upper Lune</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>Paddle from Tebay to Lowgill</p>
+</div>
+</a>
+<a href="posts/2019-09-08-back-to-sea-kayaking-anglesey/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["course","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">Sept. 8, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-09-08-back-to-sea-kayaking-anglesey/ska.jpg"/>
+</div>
+<div class="description">
+<h2>Back to Sea Kayaking Anglesey</h2>
+<div class="dt-tags">
+<div class="dt-tag">course</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>Another intromediate course on Anglesey</p>
+</div>
+</a>
+<a href="posts/2019-08-22-first-river-trip/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["LDCC","whitewater"]}</script>
+<div class="metadata">
+<div class="publishedDate">Aug. 22, 2019</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2019-08-22-first-river-trip/wenning.jpg"/>
+</div>
+<div class="description">
+<h2>First river trip</h2>
+<div class="dt-tags">
+<div class="dt-tag">LDCC</div>
+<div class="dt-tag">whitewater</div>
+</div>
+<p>Club trip on the Wenning</p>
+</div>
+</a>
+<a href="posts/2018-06-10-sea-kayaking-anglesey/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["course","sea"]}</script>
+<div class="metadata">
+<div class="publishedDate">June 10, 2018</div>
+</div>
+<div class="thumbnail">
+<img data-src="posts/2018-06-10-sea-kayaking-anglesey/ska.jpg"/>
+</div>
+<div class="description">
+<h2>Sea Kayaking Anglesey</h2>
+<div class="dt-tags">
+<div class="dt-tag">course</div>
+<div class="dt-tag">sea</div>
+</div>
+<p>Weekend intromediate sea kayaking course</p>
+</div>
+</a>
 </div>
 <div class="posts-sidebar">
 <div class="sidebar-section categories">
@@ -2723,35 +3072,51 @@ function init_posts_list() {
 <ul>
 <li>
 <a href="#category:Articles">Articles</a>
-<span class="category-count">(10)</span>
+<span class="category-count">(30)</span>
 </li>
 <li>
 <a href="#category:awards">awards</a>
-<span class="category-count">(1)</span>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:CC">CC</a>
+<span class="category-count">(7)</span>
+</li>
+<li>
+<a href="#category:course">course</a>
 <span class="category-count">(2)</span>
 </li>
 <li>
-<a href="#category:ldcc">ldcc</a>
-<span class="category-count">(1)</span>
+<a href="#category:expedition">expedition</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
+<a href="#category:lake">lake</a>
+<span class="category-count">(2)</span>
 </li>
 <li>
 <a href="#category:LDCC">LDCC</a>
-<span class="category-count">(4)</span>
+<span class="category-count">(15)</span>
 </li>
 <li>
-<a href="#category:sea">sea</a>
-<span class="category-count">(6)</span>
-</li>
-<li>
-<a href="#category:UCC">UCC</a>
+<a href="#category:leadership">leadership</a>
 <span class="category-count">(2)</span>
 </li>
 <li>
-<a href="#category:whitewater">whitewater</a>
+<a href="#category:sea">sea</a>
+<span class="category-count">(14)</span>
+</li>
+<li>
+<a href="#category:solo">solo</a>
+<span class="category-count">(1)</span>
+</li>
+<li>
+<a href="#category:UCC">UCC</a>
 <span class="category-count">(3)</span>
+</li>
+<li>
+<a href="#category:whitewater">whitewater</a>
+<span class="category-count">(12)</span>
 </li>
 </ul>
 </div>

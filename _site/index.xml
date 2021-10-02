@@ -7,11 +7,43 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sat, 03 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Introducing Paddlers to the Salty Sea</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-09-26-introducing-paddlers-to-the-salty-sea</link>
+      <description>Helping out on Roa Island</description>
+      <category>CC</category>
+      <category>leadership</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-09-26-introducing-paddlers-to-the-salty-sea</guid>
+      <pubDate>Sun, 26 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-09-26-introducing-paddlers-to-the-salty-sea/20210925_154329(0).jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Coniston with LDCC</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-09-18-coniston</link>
+      <description>A club paddle in the lakes</description>
+      <category>lake</category>
+      <category>LDCC</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-09-18-coniston</guid>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-09-18-coniston/20210918_143801.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Isle of Muck Experience</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-08-21-isle-of-muck-experience</link>
+      <description>A week of paddling on the Small Isles</description>
+      <category>CC</category>
+      <category>expedition</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-08-21-isle-of-muck-experience</guid>
+      <pubDate>Sat, 21 Aug 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-08-21-isle-of-muck-experience/muck.jpeg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Farne Isles</title>
       <link>https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles</link>
-      <description>A short description of the post.</description>
+      <description>A weekend of paddling from Seahouses</description>
       <category>CC</category>
       <category>sea</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles</guid>
@@ -21,41 +53,43 @@
     <item>
       <title>Morecambe Bay</title>
       <link>https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay</link>
-      <description>A short description of the post.</description>
-      <category>ldcc</category>
+      <description>Club with with LDCC</description>
+      <category>LDCC</category>
       <category>sea</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay</guid>
       <pubDate>Sat, 26 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay/morecambe.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Brighouse Bay</title>
       <link>https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay</link>
-      <description>A short description of the post.</description>
-      <category>UCC</category>
+      <description>A weekend of paddling from Kirkcudbright</description>
+      <category>leadership</category>
       <category>sea</category>
+      <category>UCC</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay</guid>
-      <pubDate>Sat, 12 Jun 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay/201795368_4264253233596313_7996771256474821403_n.jpg" medium="image" type="image/jpeg"/>
+      <pubDate>Fri, 11 Jun 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay/brighouse.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Yorkshire Coast</title>
       <link>https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast</link>
-      <description>A short description of the post.</description>
+      <description>A weekend paddling with Cumbria Canoeists</description>
       <category>CC</category>
       <category>sea</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast</guid>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast/vlcsnap-2021-06-07-16h58m13s395.jpg" medium="image" type="image/jpeg"/>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast/yorkshire.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>White Water Award Practice at Halton</title>
       <link>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</link>
-      <description>Another chance to work towards the White Water Award</description>
+      <description>Working towards the White Water Award</description>
       <category>LDCC</category>
       <category>whitewater</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton</guid>
       <pubDate>Sat, 15 May 2021 00:00:00 +0000</pubDate>
-      <media:content url="https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton/2021-05-15-white-water-award-pracrtice-at-halton.jpg" medium="image" type="image/jpeg"/>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton/halton-ww.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>Paddlesport Instructor</title>
@@ -65,6 +99,15 @@
       <guid>https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor</guid>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor/2021-05-08-paddlesport-instructor.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>FSRT</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-05-01-fsrt</link>
+      <description>Foundation Safety and Rescue Training Course</description>
+      <category>awards</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-05-01-fsrt</guid>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-05-01-fsrt/fsrt.jpg" medium="image" type="image/jpeg"/>
     </item>
     <item>
       <title>White Water Award training</title>
@@ -90,8 +133,8 @@
       <title>The Lancaster Round</title>
       <link>https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round</link>
       <description>An early start doing the Lancaster round from Glasson</description>
-      <category>UCC</category>
       <category>sea</category>
+      <category>UCC</category>
       <guid>https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round</guid>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round/2021-04-07-lancaster-round.jpg" medium="image" type="image/jpeg"/>
@@ -105,6 +148,167 @@
       <guid>https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle</guid>
       <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
       <media:content url="https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/night-paddle.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Solway Coast</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast</link>
+      <description>Sea Kayak Forage &amp; Wild Camp</description>
+      <category>CC</category>
+      <category>expedition</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast</guid>
+      <pubDate>Sat, 10 Oct 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast/isles-of-fleet.JPG" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>St Bees</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-09-26-st-bees</link>
+      <description>A weekend of paddling from St. Bees</description>
+      <category>CC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-09-26-st-bees</guid>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-09-26-st-bees/stbees.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Ullswater</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-09-21-ullswater</link>
+      <description>First solo paddle, Glenridding to Howtown</description>
+      <category>lake</category>
+      <category>solo</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-09-21-ullswater</guid>
+      <pubDate>Mon, 21 Sep 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-09-21-ullswater/ullswater.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Saturday night out in Barrow</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-08-15-saturday-night-out-in-barrow</link>
+      <description>An evening paddle around Piel island</description>
+      <category>sea</category>
+      <category>UCC</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-08-15-saturday-night-out-in-barrow</guid>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-08-15-saturday-night-out-in-barrow/barrow.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>St Bees Head</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-08-09-st-bees-head</link>
+      <description>Rescues and towing session</description>
+      <category>CC</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-08-09-st-bees-head</guid>
+      <pubDate>Sun, 09 Aug 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-08-09-st-bees-head/stbees.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Wenning</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-02-29-the-wenning</link>
+      <description>LDCC river trip</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-02-29-the-wenning</guid>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-02-29-the-wenning/wenning.png" medium="image" type="image/png" width="1258" height="780"/>
+    </item>
+    <item>
+      <title>Kirby Lonsdale</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-02-15-kirby-lonsdale</link>
+      <description>Playing under the bridge</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-02-15-kirby-lonsdale</guid>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-02-15-kirby-lonsdale/kirkby-lonsdale.png" medium="image" type="image/png" width="1137" height="895"/>
+    </item>
+    <item>
+      <title>Upper Upper Lune</title>
+      <link>https://rhionthesea.netlify.app/posts/2020-01-18-upper-upper-lune</link>
+      <description>Club trip from Tebay</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2020-01-18-upper-upper-lune</guid>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2020-01-18-upper-upper-lune/tebay.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Wintery Rothay</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-12-21-wintery-rothay</link>
+      <description>Final club trip before Christmas</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-12-21-wintery-rothay</guid>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-12-21-wintery-rothay/rothay.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Middle Kent</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-12-14-the-kent</link>
+      <description>River trip with LDCC</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-12-14-the-kent</guid>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-12-14-the-kent/kent.png" medium="image" type="image/png" width="868" height="592"/>
+    </item>
+    <item>
+      <title>Little bit of the Leven</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-10-19-little-bit-of-the-leven</link>
+      <description>LDCC club trip</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-10-19-little-bit-of-the-leven</guid>
+      <pubDate>Sat, 19 Oct 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-10-19-little-bit-of-the-leven/leven.png" medium="image" type="image/png" width="1004" height="674"/>
+    </item>
+    <item>
+      <title>Bron y Gader trip</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-10-13-bron-y-gader-trip</link>
+      <description>LDCC club trip to North Wales</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-10-13-bron-y-gader-trip</guid>
+      <pubDate>Sun, 13 Oct 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-10-13-bron-y-gader-trip/bron-y-gader.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>The Upper Upper Lune</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-09-28-the-upper-upper-lune</link>
+      <description>Paddle from Tebay to Lowgill</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-09-28-the-upper-upper-lune</guid>
+      <pubDate>Sat, 28 Sep 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-09-28-the-upper-upper-lune/tebay.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Back to Sea Kayaking Anglesey</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-09-08-back-to-sea-kayaking-anglesey</link>
+      <description>Another intromediate course on Anglesey</description>
+      <category>course</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-09-08-back-to-sea-kayaking-anglesey</guid>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-09-08-back-to-sea-kayaking-anglesey/ska.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>First river trip</title>
+      <link>https://rhionthesea.netlify.app/posts/2019-08-22-first-river-trip</link>
+      <description>Club trip on the Wenning</description>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2019-08-22-first-river-trip</guid>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2019-08-22-first-river-trip/wenning.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Sea Kayaking Anglesey</title>
+      <link>https://rhionthesea.netlify.app/posts/2018-06-10-sea-kayaking-anglesey</link>
+      <description>Weekend intromediate sea kayaking course</description>
+      <category>course</category>
+      <category>sea</category>
+      <guid>https://rhionthesea.netlify.app/posts/2018-06-10-sea-kayaking-anglesey</guid>
+      <pubDate>Sun, 10 Jun 2018 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2018-06-10-sea-kayaking-anglesey/ska.jpg" medium="image" type="image/jpeg"/>
     </item>
   </channel>
 </rss>

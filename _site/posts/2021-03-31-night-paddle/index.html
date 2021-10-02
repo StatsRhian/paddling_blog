@@ -23,6 +23,7 @@
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
@@ -55,7 +56,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
-code span.at { color: #20794d; } /* Attribute */
+code span.at { } /* Attribute */
 code span.bn { color: #ad0000; } /* BaseN */
 code span.bu { } /* BuiltIn */
 code span.cf { color: #007ba5; } /* ControlFlow */
@@ -76,13 +77,14 @@ code span.kw { color: #007ba5; } /* Keyword */
 code span.op { color: #5e5e5e; } /* Operator */
 code span.ot { color: #007ba5; } /* Other */
 code span.pp { color: #ad0000; } /* Preprocessor */
-code span.sc { color: #20794d; } /* SpecialChar */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
 code span.ss { color: #20794d; } /* SpecialString */
 code span.st { color: #20794d; } /* String */
 code span.va { color: #111111; } /* Variable */
 code span.vs { color: #20794d; } /* VerbatimString */
 code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
+
 
   <!--radix_placeholder_meta_tags-->
 <title>Rhi on the Sea: Night paddle</title>
@@ -115,7 +117,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","categories","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Night paddle"]},{"type":"character","attributes":{},"value":["A night paddle on Halton rapids"]},{"type":"character","attributes":{},"value":["LDCC","whitewater"]},{"type":"character","attributes":{},"value":["03-31-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/"]},{"type":"character","attributes":{},"value":["https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","categories","preview","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Night paddle"]},{"type":"character","attributes":{},"value":["A night paddle on Halton rapids"]},{"type":"character","attributes":{},"value":["LDCC","whitewater"]},{"type":"character","attributes":{},"value":["night-paddle.jpg"]},{"type":"character","attributes":{},"value":["03-31-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/"]},{"type":"character","attributes":{},"value":["https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -1873,7 +1875,10 @@ function init_distill() {
 
     // hoverable references
     $('span.citation[data-cites]').each(function() {
-      var refHtml = $('#ref-' + $(this).attr('data-cites')).html();
+      var refs = $(this).attr('data-cites').split(" ");
+      var refHtml = refs.map(function(ref) {
+        return "<p>" + $('#ref-' + ref).html() + "</p>";
+      }).join("\n");
       window.tippy(this, {
         allowHTML: true,
         content: refHtml,
@@ -2385,8 +2390,8 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.8/header-attrs.js"></script>
-  <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/header-attrs-2.11.2/header-attrs.js"></script>
+  <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2444,10 +2449,11 @@ d-appendix d-footnote-list a.footnote-backlink {
 <ul>
 <li>Halton Rapids on 0.85m (Medium)</li>
 <li>Warm with wind picking up through the evening. Dark!</li>
+<li><a href="https://www.strava.com/activities/5046141001">Strava</a></li>
 </ul>
 <p>Dusk &amp; night paddle. 13 paddlers in total. Ran the rapids once stopping at the islands to play. The others then did 2 more laps in the dark whilst I played at the islands. Paul brought glowsticks for everyone and hot cross buns. Lovely way to close the season.</p>
 <div class="layout-chunk" data-layout="l-body">
-<p><img src="night-paddle.jpg" width="2016" /></p>
+<p><img src="night-paddle.jpg" /><!-- --></p>
 </div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

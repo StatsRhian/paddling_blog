@@ -1,10 +1,12 @@
 ---
 title: "Brighouse Bay"
 description: |
-  A short description of the post.
+  A weekend of paddling from Kirkcudbright
 categories:
-  - UCC
+  - leadership
   - sea
+  - UCC
+preview: brighouse.jpg
 date: 06-12-2021
 output:
   distill::distill_article:
@@ -16,7 +18,7 @@ output:
 
 
 ```{r, echo = FALSE}
-knitr::include_graphics("201795368_4264253233596313_7996771256474821403_n.jpg")
+knitr::include_graphics("brighouse.jpg")
 ```
 
-
+TODO

@@ -2,50 +2,130 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://rhionthesea.netlify.app/about.html</loc>
-    <lastmod>2021-05-11T18:37:20+01:00</lastmod>
+    <lastmod>2021-10-02T18:43:40+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/</loc>
-    <lastmod>2021-05-13T12:25:28+01:00</lastmod>
+    <lastmod>2021-10-02T13:28:03+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-09-26-introducing-paddlers-to-the-salty-sea/</loc>
+    <lastmod>2021-10-02T18:39:14+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-09-18-coniston/</loc>
+    <lastmod>2021-10-02T18:39:12+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-08-21-isle-of-muck-experience/</loc>
+    <lastmod>2021-10-02T18:39:37+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-07-03-farne-isles/</loc>
-    <lastmod>2021-07-18T19:57:03+01:00</lastmod>
+    <lastmod>2021-10-02T16:39:18+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-06-26-morecambe-bay/</loc>
-    <lastmod>2021-07-18T19:56:05+01:00</lastmod>
+    <lastmod>2021-10-02T16:40:26+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-06-12-brighouse-bay/</loc>
-    <lastmod>2021-07-18T19:56:07+01:00</lastmod>
+    <lastmod>2021-10-02T18:44:58+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-06-05-yorkshire-coast/</loc>
-    <lastmod>2021-07-18T19:56:12+01:00</lastmod>
+    <lastmod>2021-10-02T16:43:38+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-05-15-white-water-award-practice-at-halton/</loc>
-    <lastmod>2021-05-21T17:48:23+01:00</lastmod>
+    <lastmod>2021-10-02T16:44:23+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-05-08-paddlesport-instructor/</loc>
-    <lastmod>2021-07-18T19:24:45+01:00</lastmod>
+    <lastmod>2021-10-02T16:44:58+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-05-01-fsrt/</loc>
+    <lastmod>2021-10-02T16:45:23+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-04-18-white-water-award-training/</loc>
-    <lastmod>2021-05-19T21:07:49+01:00</lastmod>
+    <lastmod>2021-10-02T16:47:58+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-04-10-morecambe-bay-on-a-sunny-day/</loc>
-    <lastmod>2021-05-19T21:08:21+01:00</lastmod>
+    <lastmod>2021-10-02T14:28:35+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-04-07-the-lancaster-round/</loc>
-    <lastmod>2021-05-19T21:09:11+01:00</lastmod>
+    <lastmod>2021-10-02T18:40:39+01:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-03-31-night-paddle/</loc>
-    <lastmod>2021-05-19T21:09:55+01:00</lastmod>
+    <lastmod>2021-10-02T14:32:46+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-10-10-sea-kayak-forage-wild-camp-solway-coast/</loc>
+    <lastmod>2021-10-02T15:10:33+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-09-26-st-bees/</loc>
+    <lastmod>2021-10-02T16:50:54+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-09-21-ullswater/</loc>
+    <lastmod>2021-10-02T15:12:41+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-08-15-saturday-night-out-in-barrow/</loc>
+    <lastmod>2021-10-02T18:25:42+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-08-09-st-bees-head/</loc>
+    <lastmod>2021-10-02T16:52:22+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-02-29-the-wenning/</loc>
+    <lastmod>2021-10-02T18:36:35+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-02-15-kirby-lonsdale/</loc>
+    <lastmod>2021-10-02T18:33:07+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2020-01-18-upper-upper-lune/</loc>
+    <lastmod>2021-10-02T17:45:12+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-12-21-wintery-rothay/</loc>
+    <lastmod>2021-10-02T17:41:05+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-12-14-the-kent/</loc>
+    <lastmod>2021-10-02T18:22:00+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-10-19-little-bit-of-the-leven/</loc>
+    <lastmod>2021-10-02T18:25:06+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-10-13-bron-y-gader-trip/</loc>
+    <lastmod>2021-10-02T17:21:52+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-09-28-the-upper-upper-lune/</loc>
+    <lastmod>2021-10-02T18:06:21+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-09-08-back-to-sea-kayaking-anglesey/</loc>
+    <lastmod>2021-10-02T18:02:48+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2019-08-22-first-river-trip/</loc>
+    <lastmod>2021-10-02T17:53:42+01:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2018-06-10-sea-kayaking-anglesey/</loc>
+    <lastmod>2021-10-02T17:59:50+01:00</lastmod>
   </url>
 </urlset>
