@@ -5,6 +5,7 @@ description: |
 categories:
   - CC
   - sea
+  - st bees
 preview: stbees.jpg
 date: 2020-08-09
 output:

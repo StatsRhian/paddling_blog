@@ -4,6 +4,8 @@ description: |
   Club trip from Tebay
 categories:
   - LDCC
+  - lune
+  - tebay
   - whitewater
 preview: tebay.jpg
 date: 2020-01-18

@@ -5,6 +5,7 @@ description: |
 categories:
   - lake
   - solo
+  - ullswater
 preview: ullswater.jpg
 date: 2020-09-21
 output:

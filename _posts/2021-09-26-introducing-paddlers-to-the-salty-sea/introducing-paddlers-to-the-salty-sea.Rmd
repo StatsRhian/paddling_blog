@@ -3,6 +3,7 @@ title: "Introducing Paddlers to the Salty Sea"
 description: |
   Helping out on Roa Island
 categories:
+  - barrow
   - CC
   - leadership
   - sea

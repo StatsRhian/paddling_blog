@@ -4,6 +4,7 @@ description: |
   Club trip on the Wenning
 categories:
    - LDCC
+   - wenning
    - whitewater
 preview: wenning.jpg
 date: 2019-08-22

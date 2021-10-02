@@ -4,6 +4,8 @@ description: |
   Paddle from Tebay to Lowgill
 categories:
   - LDCC
+  - lune
+  - tebay
   - whitewater
 preview: tebay.jpg
 date: 2019-09-28

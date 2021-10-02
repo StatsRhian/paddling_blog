@@ -3,6 +3,7 @@ title: "Brighouse Bay"
 description: |
   A weekend of paddling from Kirkcudbright
 categories:
+  - kirkcudbright
   - leadership
   - sea
   - UCC

@@ -3,6 +3,7 @@ title: "Saturday night out in Barrow"
 description: |
   An evening paddle around Piel island
 categories:
+  - barrow
   - sea
   - UCC
 preview: barrow.jpg

@@ -3,6 +3,7 @@ title: "Back to Sea Kayaking Anglesey"
 description: |
   Another intromediate course on Anglesey
 categories:
+  - anglesey
   - course
   - sea
 preview: ska.jpg

@@ -3,6 +3,7 @@ title: "Sea Kayaking Anglesey"
 description: |
   Weekend intromediate sea kayaking course
 categories:
+  - anglesey
   - course
   - sea
 preview: ska.jpg

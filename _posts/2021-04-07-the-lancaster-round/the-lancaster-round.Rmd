@@ -3,6 +3,8 @@ title: "The Lancaster Round"
 description: |
   An early start doing the Lancaster round from Glasson
 categories:
+  - canal
+  - lune
   - sea
   - UCC
 preview: 2021-04-07-lancaster-round.jpg

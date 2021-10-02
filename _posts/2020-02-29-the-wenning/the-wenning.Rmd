@@ -4,6 +4,7 @@ description: |
   LDCC river trip
 categories:
   - LDCC
+  - wenning
   - whitewater
 preview: wenning.png
 date: 2020-02-29

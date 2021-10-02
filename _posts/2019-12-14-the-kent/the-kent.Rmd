@@ -4,6 +4,7 @@ description: |
   River trip with LDCC
 categories:
   - LDCC
+  - kent
   - whitewater
 preview: kent.png
 date: 2019-12-14
@@ -27,7 +28,6 @@ knitr::include_graphics("kent.png")
 ```
 
 Paul over-egged a breakout, propping myself upright with paddle, but got a kindly nudge from Alex to get me level again. A sheep trapped on the riverbank was not for being helped. We pressed on to the big weir in Kendal which was well covered by Simon and Alex on the side. Everybody got over fine. Lots of surfing to be had on the town features. People dialled into their own level of fun, sometimes with persuasion. Just a couple of swims today, each as a result of side surfing. The wind picked up and was cutting. Whilst getting changed there was a good flurry of ice crystal precipitation, (not to be confused with hail, a summer phenomenae, thanks Dave for the clarification). Thank you to the cake produced by Alan or Steve to liven up the change into dry gear. Thank you everyone for another good spirited club outing.
-
 
 
 I had one swim after accidentally side surfing, whilst paddling through the middle of Kendal. I got pretty cold on the last section paddling to Scroggs Weir.

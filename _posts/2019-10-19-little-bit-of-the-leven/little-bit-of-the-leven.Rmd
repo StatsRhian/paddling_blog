@@ -4,6 +4,7 @@ description: |
   LDCC club trip
 categories: 
  - LDCC
+ - leven
  - whitewater
 preview: leven.png
 date: 2019-10-19

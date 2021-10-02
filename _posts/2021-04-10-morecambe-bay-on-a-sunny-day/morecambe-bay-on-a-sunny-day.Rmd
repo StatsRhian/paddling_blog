@@ -4,6 +4,7 @@ description: |
   A sunny paddle on Morecambe Bay
 categories:
   - LDCC
+  - morecambe
   - sea
 preview: 2021-04-10-morecambe.jpg
 date: 04-10-2021

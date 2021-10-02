@@ -3,6 +3,7 @@ title: "Night paddle"
 description: |
  A night paddle on Halton rapids
 categories:
+  - halton rapids
   - LDCC
   - whitewater
 preview: night-paddle.jpg
@@ -17,7 +18,7 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-- Halton Rapids on 0.85m (Medium)
+- 0.85m (Medium)
 - Warm with wind picking up through the evening. Dark!
 - [Strava](https://www.strava.com/activities/5046141001)
 	

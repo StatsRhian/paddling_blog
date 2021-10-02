@@ -3,6 +3,7 @@ title: "Coniston with LDCC"
 description: |
   A club paddle in the lakes
 categories:
+  - coniston
   - lake
   - LDCC
 preview: 20210918_143801.jpg

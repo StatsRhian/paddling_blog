@@ -3,6 +3,7 @@ title: "White Water Award training"
 description: |
   Learning at Halton Rapids
 categories:
+  - halton rapids
   - LDCC
   - whitewater
 preview: 2021-04-18-paul.jpg

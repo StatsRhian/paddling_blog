@@ -5,6 +5,7 @@ description: |
 categories:
   - CC
   - expedition
+  - kirkcudbright
   - sea
 preview: isles-of-fleet.JPG
 date: 2020-10-10

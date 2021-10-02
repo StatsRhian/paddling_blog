@@ -3,6 +3,7 @@ title: "White Water Award Practice at Halton"
 description: |
   Working towards the White Water Award
 categories:
+  - halton rapids
   - LDCC
   - whitewater
 preview: halton-ww.jpg
