@@ -4,6 +4,7 @@ description: |
   Club trip with LDCC
 categories:
   - LDCC
+  - morecambe
   - sea
 date: 06-26-2021
 preview: morecambe.jpg

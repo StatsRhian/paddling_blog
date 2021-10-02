@@ -81,17 +81,18 @@
   {
     "path": "posts/2021-06-26-morecambe-bay/",
     "title": "Morecambe Bay",
-    "description": "Club with with LDCC",
+    "description": "Club trip with LDCC",
     "author": [],
     "date": "2021-06-26",
     "categories": [
       "LDCC",
+      "morecambe",
       "sea"
     ],
     "contents": "\nBare Bay, Morecambe\nWarm, gentle winds\nStrava\nToday, Saturday 26/06 on Morecambe Bay. There were 14 of us with a mix of sea kayaks and river running kayaks. Various splits to accommodate for all paddling on general direction towards Happy Mount Park against the chop and wind. Snacks in Bare paddling pool then out into the very fast outgoing tide allows us to quickly get to the lifeboat station bay then back to start point at the Town Hall side slip. Nice waves, some surfing and heavy going to finish. Sunny throughout. Certainly a tougher proposition than planned but all were up to the exciting conditions.\n\n\n\n\n\n\n",
     "preview": "posts/2021-06-26-morecambe-bay/morecambe.jpg",
-    "last_modified": "2021-10-02T16:40:26+01:00",
-    "input_file": {}
+    "last_modified": "2021-10-02T21:18:59+01:00",
+    "input_file": "morecambe-bay.knit.md"
   },
   {
     "path": "posts/2021-06-12-brighouse-bay/",
