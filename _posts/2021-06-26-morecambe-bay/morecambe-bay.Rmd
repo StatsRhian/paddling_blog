@@ -1,7 +1,7 @@
 ---
 title: "Morecambe Bay"
 description: |
-  Club with with LDCC
+  Club trip with LDCC
 categories:
   - LDCC
   - sea
