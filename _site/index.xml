@@ -7,7 +7,31 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 03 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Newby Bridge Weir</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-10-17-newby-bridge-weir</link>
+      <description>Assisting a group trip below the Newby Bridge weir</description>
+      <category>LDCC</category>
+      <category>leadership</category>
+      <category>leven</category>
+      <category>whitewater</category>
+      <category>windermere</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-10-17-newby-bridge-weir</guid>
+      <pubDate>Sun, 17 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-10-17-newby-bridge-weir/20211017_113944.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Surfing at Workington</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-10-13-surfing-at-workington</link>
+      <description>A grey day on the West Cumbria Coast</description>
+      <category>LCC</category>
+      <category>sea</category>
+      <category>workington</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-10-13-surfing-at-workington</guid>
+      <pubDate>Wed, 13 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-10-13-surfing-at-workington/workington.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Sneaking up the Brathay</title>
       <link>https://rhionthesea.netlify.app/posts/2021-10-03-sneaking-up-the-rothay</link>
