@@ -7,7 +7,18 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 17 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 30 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Rising Wenning</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-10-30-rising-wenning</link>
+      <description>A return to river running</description>
+      <category>LDCC</category>
+      <category>wenning</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-10-30-rising-wenning</guid>
+      <pubDate>Sat, 30 Oct 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-10-30-rising-wenning/wenning.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Newby Bridge Weir</title>
       <link>https://rhionthesea.netlify.app/posts/2021-10-17-newby-bridge-weir</link>
