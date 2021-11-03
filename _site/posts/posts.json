@@ -1,5 +1,21 @@
 [
   {
+    "path": "posts/2021-11-03-windermere-jetty-museum/",
+    "title": "Windermere Jetty Museum",
+    "description": "A midweek paddle with plenty of natter and cake",
+    "author": [],
+    "date": "2021-11-03",
+    "categories": [
+      "LCC",
+      "lake",
+      "windermere"
+    ],
+    "contents": "\nLaunch from Windermere Jetty Museum\nStrava\n14 paddlers met at the Windermere Jetty Museum for a coffee and cake. We split into two groups of seven, and had a chatty paddle up the east side of Windermere. After a lunch at Waterhead, we paddled across the top and down the west side, doing a quick lap of Bell Island before getting back in time to look around the museum.\n\n\n\n\n\n\n",
+    "preview": "posts/2021-11-03-windermere-jetty-museum/windermere.jpg",
+    "last_modified": "2021-11-03T20:34:40+00:00",
+    "input_file": "windermere-jetty-museum.knit.md"
+  },
+  {
     "path": "posts/2021-10-30-rising-wenning/",
     "title": "Rising Wenning",
     "description": "A return to river running",
