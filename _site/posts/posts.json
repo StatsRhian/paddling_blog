@@ -1,5 +1,21 @@
 [
   {
+    "path": "posts/2021-11-06-happy-new-halton-year/",
+    "title": "Happy New Halton Year",
+    "description": "Start of the winter paddling season",
+    "author": [],
+    "date": "2021-11-06",
+    "categories": [
+      "halton rapids",
+      "LDCC",
+      "whitewater"
+    ],
+    "contents": "\nSaturday\nSunday\n\n\n\nI went out both days. Saturday (0.7m) was a good confidence builder for me. Chose a line for Amy to follow through the rapids. On Sunday level was a little more challenging (1m). I didn’t feel I was paddling as well, maybe tiredness but it was sloppy.Not using sweep strokes, not paddling aggressively. Might be worth considering a slightly smaller boat at some point?\n\nWell what a great weekend of paddling, 6/7th November on Halton rapids. The storms of Saturday put few people off and it was encouraging to see people coming on strongly. A very pleasant river level. How things changed overnight……the river was high Sunday morning so we delayed the start until 12. Still a big flow but wow, how well did people take to it. We are building up a promising group of paddlers.\n\n\n\n\n",
+    "preview": "posts/2021-11-06-happy-new-halton-year/halton.jpg",
+    "last_modified": "2021-11-09T21:43:25+00:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2021-11-03-windermere-jetty-museum/",
     "title": "Windermere Jetty Museum",
     "description": "A midweek paddle with plenty of natter and cake",
@@ -13,7 +29,7 @@
     "contents": "\nLaunch from Windermere Jetty Museum\nStrava\n14 paddlers met at the Windermere Jetty Museum for a coffee and cake. We split into two groups of seven, and had a chatty paddle up the east side of Windermere. After a lunch at Waterhead, we paddled across the top and down the west side, doing a quick lap of Bell Island before getting back in time to look around the museum.\n\n\n\n\n\n\n",
     "preview": "posts/2021-11-03-windermere-jetty-museum/windermere.jpg",
     "last_modified": "2021-11-03T20:34:40+00:00",
-    "input_file": "windermere-jetty-museum.knit.md"
+    "input_file": {}
   },
   {
     "path": "posts/2021-10-30-rising-wenning/",
