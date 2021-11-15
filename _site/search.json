@@ -6,14 +6,14 @@
       "description": "A paddle log",
       "author": [],
       "contents": "\nThis blog tracks my paddling reports.\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-09T21:43:27+00:00"
+      "last_modified": "2021-11-14T20:14:42+00:00"
     },
     {
       "path": "index.html",
       "title": "Paddle Reports",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-11-09T21:43:28+00:00"
+      "last_modified": "2021-11-14T20:14:43+00:00"
     },
     {
       "path": "philosophy.html",
@@ -21,7 +21,7 @@
       "description": "My coaching and leadership philosophy",
       "author": [],
       "contents": "\nValues\nSupporting\nPeople-focused\nEnjoyment\nEnthusiastic\nFlexible\nRelaxed\nLearning\n\n\n\n",
-      "last_modified": "2021-11-09T21:43:28+00:00"
+      "last_modified": "2021-11-14T20:14:43+00:00"
     }
   ],
   "collections": ["posts/posts.json"]
