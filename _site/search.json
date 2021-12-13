@@ -5,15 +5,15 @@
       "title": "About",
       "description": "A paddle log",
       "author": [],
-      "contents": "\nThis blog tracks my paddling reports.\n\n\n\n\n\n\n",
-      "last_modified": "2021-11-15T19:59:41+00:00"
+      "contents": "\nThis is a personal paddle log to collate my paddling reports and reflect on personal development.\nClubs\nI currently paddle with a number of local clubs:\nLancaster & District Canoe Club\nLakeland Canoe Club\nUlverston Canoe Club\nCumbria Canoeists\nQualifications\nPaddlesport Instuctor (Kayak)\nFSRT\nVHF SRC\nCNTP\nMap\n\n\n\n\n\n\n",
+      "last_modified": "2021-12-13T18:31:12+00:00"
     },
     {
       "path": "index.html",
       "title": "Paddle Reports",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-11-15T19:59:42+00:00"
+      "last_modified": "2021-12-13T18:31:13+00:00"
     },
     {
       "path": "philosophy.html",
@@ -21,7 +21,7 @@
       "description": "My coaching and leadership philosophy",
       "author": [],
       "contents": "\nValues\nSupporting\nPeople-focused\nEnjoyment\nEnthusiastic\nFlexible\nRelaxed\nLearning\n\n\n\n",
-      "last_modified": "2021-11-15T19:59:42+00:00"
+      "last_modified": "2021-12-13T18:31:14+00:00"
     }
   ],
   "collections": ["posts/posts.json"]

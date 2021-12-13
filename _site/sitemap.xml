@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://rhionthesea.netlify.app/about.html</loc>
-    <lastmod>2021-10-02T18:43:40+01:00</lastmod>
+    <lastmod>2021-12-13T18:17:49+00:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/</loc>
@@ -13,8 +13,16 @@
     <lastmod>2021-10-18T21:14:13+01:00</lastmod>
   </url>
   <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-12-11-shooting-the-baffle/</loc>
+    <lastmod>2021-12-13T18:58:12+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://rhionthesea.netlify.app/posts/2021-12-05-snow-on-the-howgills/</loc>
+    <lastmod>2021-12-13T18:46:52+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-11-14-sunny-day-for-a-park-and-play/</loc>
-    <lastmod>2021-11-14T20:14:06+00:00</lastmod>
+    <lastmod>2021-12-13T18:47:03+00:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-11-06-happy-new-halton-year/</loc>
@@ -30,7 +38,7 @@
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-10-17-newby-bridge-weir/</loc>
-    <lastmod>2021-10-18T21:10:55+01:00</lastmod>
+    <lastmod>2021-12-13T18:02:51+00:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2021-10-13-surfing-at-workington/</loc>
@@ -146,7 +154,7 @@
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2020-11-14-lockdown-paddling/</loc>
-    <lastmod>2021-10-02T20:16:22+01:00</lastmod>
+    <lastmod>2021-12-13T18:23:25+00:00</lastmod>
   </url>
   <url>
     <loc>https://rhionthesea.netlify.app/posts/2020-10-24-halton-lower-weir/</loc>

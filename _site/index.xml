@@ -7,11 +7,34 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 14 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Shooting the Baffle</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-12-11-shooting-the-baffle</link>
+      <description>My local playground</description>
+      <category>halton rapids</category>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-12-11-shooting-the-baffle</guid>
+      <pubDate>Sat, 11 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-12-11-shooting-the-baffle/halton.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Snow on the Howgills</title>
+      <link>https://rhionthesea.netlify.app/posts/2021-12-05-snow-on-the-howgills</link>
+      <description>A return to one of my favourite runs</description>
+      <category>LDCC</category>
+      <category>lune</category>
+      <category>tebay</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2021-12-05-snow-on-the-howgills</guid>
+      <pubDate>Sun, 05 Dec 2021 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2021-12-05-snow-on-the-howgills/tebay.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Sunny day for a park and play</title>
       <link>https://rhionthesea.netlify.app/posts/2021-11-14-sunny-day-for-a-park-and-play</link>
-      <description>A clear, sunny, autumnal day.</description>
+      <description>A clear, sunny, autumnal day</description>
       <category>halton rapids</category>
       <category>LDCC</category>
       <category>whitewater</category>

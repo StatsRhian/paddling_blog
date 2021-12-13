@@ -8,9 +8,27 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-This blog tracks my paddling reports.
+This is a personal paddle log to collate my paddling reports and reflect on personal development.
 
-```{r, echo = FALSE}
-knitr::include_graphics("images/local-map.png")
+### Clubs
+
+I currently paddle with a number of local clubs:
+
+- [Lancaster & District Canoe Club](https://www.ldcc.club/)
+- [Lakeland Canoe Club](https://lakelandcanoeclub.wordpress.com/)
+- [Ulverston Canoe Club](https://www.ulverstoncc.org/)
+- [Cumbria Canoeists](https://www.cumbriacanoeists.org.uk/)
+
+### Qualifications
+
+- Paddlesport Instuctor (Kayak)
+- FSRT
+- VHF SRC
+- CNTP
+
+### Map
+
+```{r, echo = FALSE, out.width = "100%"}
+knitr::include_graphics("images/2021-paddles.png")
 ```
 

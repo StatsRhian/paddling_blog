@@ -1,7 +1,7 @@
 ---
 title: "Sunny day for a park and play"
 description: |
-  A clear, sunny, autumnal day.
+  A clear, sunny, autumnal day
 categories:
   - halton rapids
   - LDCC
@@ -27,7 +27,6 @@ I do enjoy being in the beginner groups and observing the coaching, but perhaps 
 ```{r, echo = FALSE}
 knitr::include_graphics("halton.jpg")
 ```
-
 
 > 14/11/21 - Paddle Report
 In attendance: Steve-OooO, Dave-OooO, Jenny-OoOo, Emma-OooO, Gibbi-OooO, Dale-OooO, Adam-oooO, Benji-OoOo, Rhi-OoooO (sorry-OoooOo if I forgot anyone). 
