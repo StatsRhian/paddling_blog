@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 This is a personal paddle log to collate my paddling reports and reflect on personal development.
 
-### Map
+### Interactive map
 
 Zoom to see where I've paddled (so far...)
 
