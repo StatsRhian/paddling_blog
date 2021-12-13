@@ -1,0 +1,22 @@
+---
+title: "Map"
+description: |
+ Made with #RStats
+---
+
+### Interactive map
+
+Zoom to see where I've paddled (so far...)
+
+```{r, echo = FALSE}
+library("leaflet")
+paddles = sf::st_read("R/paddles.shp", quiet = TRUE)
+leaflet(paddles) %>%
+  addProviderTiles(provider = "Stamen.Watercolor") %>%
+  addPolylines(weight = 5,
+               color = "purple", 
+               opacity = 1, 
+               label = ~name) %>%
+  setView(-2.74978, 54.07527, zoom = 7) %>%
+  leaflet.extras::addFullscreenControl()
+```

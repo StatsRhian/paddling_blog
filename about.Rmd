@@ -8,27 +8,11 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+Hello, I'm Rhi! :wave: 
 This is a personal paddle log to collate my paddling reports and reflect on personal development.
+I started paddling in 2019. I do paddle whitewater, but heart lies with sea kayaking.
 
-### Interactive map
-
-Zoom to see where I've paddled (so far...)
-
-```{r, echo = FALSE}
-library("leaflet")
-paddles = sf::st_read("R/paddles.shp", quiet = TRUE)
-leaflet(paddles) %>%
-  addProviderTiles(provider = "Stamen.Watercolor") %>%
-  addPolylines(weight = 5,
-               color = "purple", 
-               opacity = 1, 
-               label = ~name) %>%
-  setView(-2.74978, 54.07527, zoom = 7) %>%
-  leaflet.extras::addFullscreenControl()
-
-```
-
-### Clubs
+### My Clubs
 
 I currently paddle with a number of local clubs:
 
@@ -37,7 +21,13 @@ I currently paddle with a number of local clubs:
 - [Ulverston Canoe Club](https://www.ulverstoncc.org/)
 - [Cumbria Canoeists](https://www.cumbriacanoeists.org.uk/)
 
-### Qualifications
+
+### My Boats
+
+- Romany Classic (Red)
+- Liquid Logic Hefe Chico (Yellow)
+
+### My Qualifications
 
 - Paddlesport Instuctor (Kayak)
 - FSRT
