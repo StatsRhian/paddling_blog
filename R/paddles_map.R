@@ -24,7 +24,7 @@ paddles =
   filter(type == "Kayaking") %>%
   filter(!is.na(map.summary_polyline)) %>%
   mutate(geom = gpoly_to_sfpoly(map.summary_polyline)) %>%
-  select(name, distance, geom) %>%
+  select(name, start_date, distance, geom) %>%
   sf::st_as_sf() %>%
   sf::st_set_crs(4326)
 

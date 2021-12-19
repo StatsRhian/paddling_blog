@@ -13,6 +13,7 @@ library("leaflet")
 paddles = sf::st_read("R/paddles.shp", quiet = TRUE)
 paddles %>%
   dplyr::mutate(label = glue::glue("<b>{name}</b>  <br>
+                   Date: {lubridate::date(start_date)} <br>
                    Distance: {round(distance, 1)}k")) %>%
   dplyr::mutate(label = purrr::map(label, htmltools::HTML)) %>%
   leaflet() %>%
