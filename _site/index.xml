@@ -7,7 +7,29 @@
     <description>A paddling log book
 </description>
     <generator>Distill</generator>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Halton on a Low</title>
+      <link>https://rhionthesea.netlify.app/posts/2022-01-23-halton-on-a-low</link>
+      <description>Girl power, paddling with Sophie</description>
+      <category>halton rapids</category>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2022-01-23-halton-on-a-low</guid>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2022-01-23-halton-on-a-low/halton.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Introducing paddlers to moving water</title>
+      <link>https://rhionthesea.netlify.app/posts/2022-01-15-introducing-paddlers-to-moving-water</link>
+      <description>Han &amp; Eleanor's first paddle at Halton</description>
+      <category>halton rapids</category>
+      <category>LDCC</category>
+      <category>whitewater</category>
+      <guid>https://rhionthesea.netlify.app/posts/2022-01-15-introducing-paddlers-to-moving-water</guid>
+      <pubDate>Sat, 15 Jan 2022 00:00:00 +0000</pubDate>
+      <media:content url="https://rhionthesea.netlify.app/posts/2022-01-15-introducing-paddlers-to-moving-water/halton.jpg" medium="image" type="image/jpeg"/>
+    </item>
     <item>
       <title>Mystical fog</title>
       <link>https://rhionthesea.netlify.app/posts/2021-12-19-mystical-fog</link>
